@@ -1,0 +1,8 @@
+tp=(1,2,3,4,5,6,7,8)
+print(tp)
+lst=list(tp)
+print(lst)
+lst.remove(2) 
+print(lst)
+tp=tuple(lst)
+print(tp)
